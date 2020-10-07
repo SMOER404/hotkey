@@ -1,4 +1,5 @@
 # JavaScript 
+
 ## fa - Стрелочная функция 
 
 const $TM_FILENAME_BASE$ = (props) => {
@@ -6,6 +7,7 @@ const $TM_FILENAME_BASE$ = (props) => {
 };
 
 # React
+
 ## rsc - react component 
 
 import React from 'react';
@@ -96,10 +98,44 @@ export default connect(
 )($TM_FILENAME_BASE$);
 
 # Redux
+
 ## rdc - reducer
+
+const initialState = [];
+
+export const $TM_FILENAME_BASE$ = (state = initialState, action) => {
+  switch (action.type) {
+
+    case `${$END$}`:
+      return action.payload;
+
+    default: return state;
+  }
+};
+
 ## saga - saga
 
+export default function* $END$() {
+  yield takeLatest(`${BOOK_SUPPLY_LIST_REQUEST}${START}`, $TM_FILENAME_BASE$);
+}
+
+function* $TM_FILENAME_BASE$({ payload: data }) {
+    try {
+
+    } catch(error) {
+       
+    }
+}
+
 # Hooks
+
 ## ue - useEffect 
+
+useEffect(() => {
+
+}, [$END$])
+
 ## us - useState 
+
+const [$TM_FILENAME_BASE$, set$TM_FILENAME_BASE$] = useState($END$);
 
