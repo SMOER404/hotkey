@@ -10,6 +10,6 @@ rdc - reducer
 saga - saga
 
 # Hooks
-ue - useEffect \n
+ue - useEffect 
 us - useState 
 
