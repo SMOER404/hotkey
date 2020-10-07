@@ -1,14 +1,15 @@
-# reducer
-rdc  
-# saga - 
-saga
-# react simple component 
-rsc
-# react state and dispatch - 
-rsd
-# function arrow - 
-fa
-# useEffect - 
-ue
-# useState - 
-us
+# JavaScript 
+fa - function arrow 
+
+# React
+rsc - react simple component 
+rsd - react state and dispatch 
+
+# Redux
+rdc - reducer
+saga - saga
+
+# Hooks
+ue - useEffect 
+us - useState 
+
