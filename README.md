@@ -127,6 +127,23 @@ function* $TM_FILENAME_BASE$({ payload: data }) {
     }
 }
 
+## action - action
+
+export const $TM_FILENAME_BASE$Start = (data) => ({
+  type: `${$END$}`,
+  payload: data
+});
+
+export const $TM_FILENAME_BASE$Success = (data) => ({
+  type: `${$END$}{SUCCESS}`,
+  payload: data
+});
+
+export const $TM_FILENAME_BASE$Error = (data) => ({
+  type: `${$END$}${ERROR}`,
+  payload: data
+});
+
 # Hooks
 
 ## ue - useEffect 
