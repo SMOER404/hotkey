@@ -101,7 +101,7 @@ export default connect(
 
 ## rdc - reducer
 
-const initialState = [];
+`const initialState = [];
 
 export const $TM_FILENAME_BASE$ = (state = initialState, action) => {
   switch (action.type) {
@@ -111,7 +111,7 @@ export const $TM_FILENAME_BASE$ = (state = initialState, action) => {
 
     default: return state;
   }
-};
+};`
 
 ## saga - saga
 
