@@ -1,11 +1,10 @@
 # JavaScript 
 
 ## fa - Стрелочная функция 
-<
+
 const $TM_FILENAME_BASE$ = (props) => {
  $END$
 };
-/>
 
 # React
 
